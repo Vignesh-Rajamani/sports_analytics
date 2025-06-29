@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Analytics Portal</title>
+</head>
+<body>
+    <h2>Upload Player/Team Stats CSV</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if summary %}
+        <h3>Top Player Summary:</h3>
+        <ul>
+            {% for player, points in summary.items() %}
+                <li>{{ player }}: {{ points }} points</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Performance Graph:</h3>
+        <img src="{{ graphs }}" width="600">
+    {% endif %}
+</body>
+</html>

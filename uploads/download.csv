@@ -1,0 +1,11 @@
+player_name,team,points,assists,rebounds,match_date
+John Smith,Tigers,25,4,8,2024-03-01
+Mike Doe,Lions,18,7,6,2024-03-01
+Sarah Lee,Tigers,15,6,5,2024-03-02
+John Smith,Tigers,30,5,10,2024-03-05
+Mike Doe,Lions,22,8,7,2024-03-05
+Sarah Lee,Tigers,20,4,6,2024-03-07
+Alex Kim,Sharks,12,3,5,2024-03-07
+Emily Chen,Sharks,28,6,9,2024-03-09
+Alex Kim,Sharks,18,2,4,2024-03-10
+Emily Chen,Sharks,25,5,8,2024-03-11
